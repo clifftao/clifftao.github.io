@@ -1,0 +1,51 @@
+html {
+  font-family: 'Nanum Gothic', sans-serif;
+  position: fixed;
+   top: 0;
+   left: 0;
+  background-size: cover;
+}
+
+div {
+    display: block;
+}
+
+header {
+  width: 100%
+  padding: 15px 0;
+  display: flex;
+  box-sizing: border-box;
+  position: relative;
+  color: #0661A2;
+  background-color:  #0661A2;
+}
+
+#logo {
+  position: absolute;
+  text-align: left;
+  padding-left: 330;
+  font-size: 50;
+  padding-top: 0;
+  margin-top: 40;
+}
+#content {
+    width: 760px;
+    height: 100vh;
+    background: #85c1f2;
+    margin: 0 auto;
+    position: relative;
+    margin-left: 330px;
+    margin-top: 120px;
+    border: 12px solid #CAE4FA;
+    padding: 40;
+    font-size: 22;
+}
+
+
+.toggle_back {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 0px;
+    border: none;
+    transform: scale(0.2);
+}

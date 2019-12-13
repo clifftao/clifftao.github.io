@@ -1,0 +1,39 @@
+html {
+
+  background-size: cover;
+}
+
+@keyframes ballBounce {
+  100% {
+    transform: translateY(30px);
+  }
+}
+@keyframes ballShadow {
+  100% {
+    opacity: 0.6;
+    transform: scale(0.5);
+  }
+}
+
+
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #2CA5FC;
+  color: white;
+  font-size: 16px;
+  padding: 40px 40px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px;
+	transition: transform .2s;
+	opacity: 80%;
+}
+
+.container .btn:hover {
+	opacity: 100%;
+}

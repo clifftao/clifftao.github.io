@@ -1,0 +1,102 @@
+/*gallery page css*/
+
+html {
+  font-family: 'Nanum Gothic', sans-serif;
+  position: fixed;
+   top: 0;
+   left: 0;
+  background-size: cover;
+}
+
+div {
+    display: block;
+}
+header {
+  width: 100%
+  padding: 15px 0;
+  display: flex;
+  box-sizing: border-box;
+  position: relative;
+  color: #0661A2;
+  background-color:  #0661A2;
+}
+
+#logo {
+  position: absolute;
+  text-align: left;
+  padding-left: 330;
+  font-size: 50;
+  padding-top: 0;
+}
+
+#subheader {
+  position: absolute;
+  text-align: left;
+  padding-left: 340;
+  padding-top: 60;
+  font-size: 35;
+}
+
+
+#content {
+    width: 760px;
+    height: 100vh;
+    background: #85c1f2;
+    margin: 0 auto;
+    position: relative;
+    margin-left: 330px;
+    margin-top: 110px;
+      border: 12px solid #CAE4FA
+
+
+;
+}
+
+.pictures{
+  background-size: cover;
+}
+.row {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+.row {
+    margin: 15px 0 0 0;
+}
+
+.item {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    overflow: hidden;
+    opacity: 0.85;
+}
+
+.item:hover{
+  box-shadow:  8px 5px #706666;
+  transition: 0.3s;
+  opacity: 1;
+}
+.item:active{
+  opacity:1;
+}
+.item {
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+}
+
+img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.toggle_back {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: none;
+    transform: scale(10);
+}
